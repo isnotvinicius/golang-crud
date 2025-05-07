@@ -23,4 +23,8 @@ And to finish it, I created the `Error()` function to be able to log all errors 
 
 ### Creating the Routes and first controllers
 
-To manage the routing of the API, I've used the `Gin Gonic`.
+To manage the routing of the API, I've used the `Gin Gonic` library to deal with the requests.
+
+After installing `Gin Gonic`, I've created the `routes` package inside `/src/controller` and inside it I added all the routes I'll need for the API to run.
+
+Then I created one controller file for each of the CRUD words.
